@@ -1,4 +1,4 @@
-﻿Shader "K13A/TeslaWave"
+﻿Shader "K13A/Old/TeslaWave"
 {
     Properties
     {
