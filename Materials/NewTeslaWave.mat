@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShaderTest
+  m_Name: NewTeslaWave
   m_Shader: {fileID: 4800000, guid: 0df3738f800fc1f4f853677fac8a3687, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0a5d0c81d4c22ad448a11dd538aa5954, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -61,7 +61,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlitchAreaScale: 0.1
-    - _GlitchBrightness: 1.5
+    - _GlitchBrightness: 1.35
     - _GlitchDistance: 1
     - _GlitchIntensity: 0.3
     - _GlitchSpeed: 3
@@ -81,7 +81,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlitchColor1: {r: 1, g: 0, b: 0, a: 1}
     - _GlitchColor2: {r: 0, g: 1, b: 0, a: 1}
