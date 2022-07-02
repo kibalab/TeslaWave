@@ -6,12 +6,15 @@
 		_MainTex("Main Texture", 2D) = "white" {}
 
         _Outline("Outline", Float) = 0.1
+		[Space(30)]
+		_Direction ("Direction", Vector) = (0,1,0,0)
+		[Space(30)]
 
         _GlitchColor1("Glitch Color 1", Color) = (1,1,1,1)
 		_GlitchColor2("Glitch Color 2", Color) = (1,1,1,1)
 		_GlitchColor3("Glitch Color 3", Color) = (1,1,1,1)
 
-		_GlitchSpeed ("Glitch Speed", Vector) = (1,1,1,1)
+		_GlitchSpeed ("Glitch Speed", Float) = 1
 		_Glitchfrequency ("Glitch Frequency", Float) = 1.0
 		_GlitchDistance ("Glitch Distance", Float) = 0
 		_GlitchAreaScale ("Glitch Area Scale", Range(-0.001,1)) = 0

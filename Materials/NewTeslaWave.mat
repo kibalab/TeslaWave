@@ -64,7 +64,7 @@ Material:
     - _GlitchBrightness: 1.35
     - _GlitchDistance: 1
     - _GlitchIntensity: 0.3
-    - _GlitchSpeed: 3
+    - _GlitchSpeed: 1
     - _Glitchfrequency: 30
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -82,9 +82,10 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Direction: {r: 0, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlitchColor1: {r: 1, g: 0, b: 0, a: 1}
     - _GlitchColor2: {r: 0, g: 1, b: 0, a: 1}
     - _GlitchColor3: {r: 0, g: 0, b: 1, a: 1}
-    - _GlitchSpeed: {r: -1, g: -1, b: -1, a: 0}
+    - _GlitchSpeed: {r: 0, g: 1, b: 0, a: 115.79}
     - _OutlineColor: {r: 1, g: 1, b: 1, a: 0.5686275}

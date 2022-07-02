@@ -5,7 +5,9 @@ float4 _MainTex_ST;
 
 half _Outline;
 
-fixed4 _GlitchSpeed;
+fixed4 _Direction;
+
+fixed _GlitchSpeed;
 fixed _Glitchfrequency;
 fixed _GlitchIntensity;
 fixed _GlitchBrightness;
@@ -56,7 +58,7 @@ void _geom(triangle vertexInput input[3], inout TriangleStream<vertexInput> Outp
     {
 					
         worldPos = input[i].vertex;
-        worldPos *= step(frac(input[i].vertex.y * _Glitchfrequency / 100 + _Time.y * _GlitchSpeed), _GlitchAreaScale ) * range * _GlitchIntensity + _GlitchDistance;
+        worldPos *= step(frac(mul(input[i].vertex, _Direction) * _Glitchfrequency / 100 + _Time.y * _GlitchSpeed), _GlitchAreaScale ) * range * _GlitchIntensity + _GlitchDistance;
         vert = input[i];
         float4 vertPos = worldPos;
         vert.vertex = UnityObjectToClipPos(vertPos);
